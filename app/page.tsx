@@ -67,14 +67,14 @@ export default function HomePage() {
             <div className="bg-gradient-to-br from-blue-900/50 to-gray-900/30 border border-blue-800 rounded-2xl p-6 shadow-xl backdrop-blur-md hover:scale-105 transition-transform">
               <h4 className="text-xl font-semibold mb-2">Site de Novel Magique</h4>
               <p className="text-white/80 text-sm mb-4">
-                Un site interactif où chaque chapitre s'accompagne d'une ambiance sonore dynamique. Conçu pour immerger le lecteur dans un univers vivant.
+                Un site interactif où chaque chapitre s&apos;accompagne d&apos;une ambiance sonore dynamique. Conçu pour immerger le lecteur dans un univers vivant.
               </p>
               <a href="#" className="text-blue-400 hover:underline">Voir le projet →</a>
             </div>
             <div className="bg-gradient-to-br from-blue-900/50 to-gray-900/30 border border-blue-800 rounded-2xl p-6 shadow-xl backdrop-blur-md hover:scale-105 transition-transform">
               <h4 className="text-xl font-semibold mb-2">Interface de JDR Genesys</h4>
               <p className="text-white/80 text-sm mb-4">
-                Une interface socket.io pour maîtriser les jets, actions et PNJ d’une table Genesys en ligne. Ergonomique et réactive.
+                Une interface socket.io pour maîtriser les jets, actions et PNJ d&apos;une table Genesys en ligne. Ergonomique et réactive.
               </p>
               <a href="#" className="text-blue-400 hover:underline">Voir le projet →</a>
             </div>
