@@ -3,11 +3,13 @@ import ProjectTemplate from '../../(components)/ProjectTemplate';
 import projects from '../../../data/projets.json';
 
 export async function generateStaticParams() {
-  return projects.map(project => ({ slug: project.slug }));
+  return projects.map(project => ({
+    params: { slug: project.slug }
+  }));
 }
 
-export default async function ProjectPage({ params }: { params: { slug: string } }) {
-  const project = await projects.find(p => p.slug === params.slug);
+export default function ProjectPage({ params }: { params: { slug: string } }) {
+  const project = projects.find(p => p.slug === params.slug);
 
   if (!project) return notFound();
 
