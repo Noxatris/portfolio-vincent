@@ -8,8 +8,13 @@ export async function generateStaticParams() {
   }));
 }
 
-// **Ne pas typer `params` explicitement**
-export default async function ProjectPage({ params }: any) {
+type Params = { slug: string };
+
+export default async function ProjectPage({
+  params,
+}: {
+  params: Params;
+}) {
   const project = projects.find(p => p.slug === params.slug);
 
   if (!project) return notFound();
