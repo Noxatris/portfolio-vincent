@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import ParticlesBackground from './(components)/ParticlesBackground';
 
-import projectData from '../data/projets.json'
+import projectData from '../data/projetListe.json'
 import ProjectCard from './(components)/ProjectCard'
 
 import StackCard from './(components)/StackCard'
