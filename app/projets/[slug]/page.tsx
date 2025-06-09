@@ -4,17 +4,18 @@ import projects from '../../../data/projets.json';
 
 export async function generateStaticParams() {
   return projects.map(project => ({
-    params: { slug: project.slug }
+    slug: project.slug,
   }));
 }
 
-type Params = { slug: string };
+export default async function ProjectPageWrapper(props: { params: any }) {
+  // Force resolution au cas où params serait une Promise
+  const params = await Promise.resolve(props.params);
 
-export default async function ProjectPage({
-  params,
-}: {
-  params: Params;
-}) {
+  return <ProjectPage params={params} />;
+}
+
+function ProjectPage({ params }: { params: { slug: string } }) {
   const project = projects.find(p => p.slug === params.slug);
 
   if (!project) return notFound();
