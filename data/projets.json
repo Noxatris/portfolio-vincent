@@ -1,0 +1,32 @@
+[
+    {
+        "titre": "Site de Novel Magique",
+        "description": "Un site interactif où chaque chapitre s'accompagne d'une ambiance sonore dynamique. Conçu pour immerger le lecteur dans un univers vivant.",
+        "technologie": "Next.js - Markdown - TailwindCss - TypeScript",
+        "link": "/"
+    },
+    {
+        "titre": "Interface de JDR Genesys",
+        "description": "Une interface socket.io pour maîtriser les jets, actions et PNJ d'une table Genesys en ligne. Ergonomique et réactive.",
+        "technologie": "React.js - Vite.js - TailwindCss - TypeScript - Socket.IO - Node.js - Express.js",
+        "link": "/"
+    },
+    {
+        "titre": "Full Stack - Commande Restaurant",
+        "description": "Un site client répertoriant les restaurants, une PWA pour les profesionnels et une API qui lie le tout à une BDD en PostgreSQL - Prisma",
+        "technologie": "Next.js - TailwindCss - TypeScript - PostgreSQL - Prisma - Node.js - Express.js",
+        "link": "/"
+    },
+    {
+        "titre": "Bibliothèque Anime",
+        "description": "Site internet référençant des Animés Japonais lié à une BDD en serverless (En Pause)",
+        "technologie": "Next.js - TailwindCss - TypeScript - PostgreSQL - Prisma",
+        "link": "/"
+    },
+    {
+        "titre": "Réseau social d'entreprise",
+        "description": "Projet scolaire finale ayant pour objectif de réaliser un réseau social d'entreprise avec gestion des images, commentaire, like, etc...",
+        "technologie": "Vue.js - Sass - MySQL - Node.js - Express.js",
+        "link": "/"
+    }
+]

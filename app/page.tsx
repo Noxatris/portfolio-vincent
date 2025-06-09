@@ -3,6 +3,11 @@
 import { useState, useEffect } from 'react';
 import ParticlesBackground from './(components)/ParticlesBackground';
 
+import projectData from '../data/projets.json'
+import ProjectCard from './(components)/ProjectCard'
+
+import StackCard from './(components)/StackCard'
+
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -63,21 +68,14 @@ export default function HomePage() {
           <p className="mb-8 text-white/80">Découvrez quelques projets qui témoignent de ma passion et mon savoir-faire.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {/* Project Cards */}
-            {/* Les cartes actuelles sont bonnes, inchangées ici */}
-            <div className="bg-gradient-to-br from-blue-900/50 to-gray-900/30 border border-blue-800 rounded-2xl p-6 shadow-xl backdrop-blur-md hover:scale-105 transition-transform">
-              <h4 className="text-xl font-semibold mb-2">Site de Novel Magique</h4>
-              <p className="text-white/80 text-sm mb-4">
-                Un site interactif où chaque chapitre s&apos;accompagne d&apos;une ambiance sonore dynamique. Conçu pour immerger le lecteur dans un univers vivant.
-              </p>
-              <a href="#" className="text-blue-400 hover:underline">Voir le projet →</a>
-            </div>
-            <div className="bg-gradient-to-br from-blue-900/50 to-gray-900/30 border border-blue-800 rounded-2xl p-6 shadow-xl backdrop-blur-md hover:scale-105 transition-transform">
-              <h4 className="text-xl font-semibold mb-2">Interface de JDR Genesys</h4>
-              <p className="text-white/80 text-sm mb-4">
-                Une interface socket.io pour maîtriser les jets, actions et PNJ d&apos;une table Genesys en ligne. Ergonomique et réactive.
-              </p>
-              <a href="#" className="text-blue-400 hover:underline">Voir le projet →</a>
-            </div>
+            {projectData.map((project, index) => (
+              <ProjectCard 
+                key={index}
+                titre={project.titre}
+                description={project.description}
+                technologie={project.technologie}
+                link={project.link}/>
+            ))}
           </div>
         </div>
       </section>
@@ -91,48 +89,17 @@ export default function HomePage() {
             Une boîte à outils affûtée pour créer des interfaces fluides, dynamiques et robustes.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
-            {/* Tech stack icons, inchangés sauf réorganisation visuelle */}
             {/* Bloc Techno */}
-            <div className="flex flex-col items-center">
-              <img src="/icons/react.svg" alt="React" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">React</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/nextjs.svg" alt="React" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">Next.js</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/tailwindcss.svg" alt="Tailwind CSS" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">Tailwind CSS</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/typescript.svg" alt="TypeScript" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">TypeScript</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/nodejs.svg" alt="Node.js" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">Node.js</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/socketio.svg" alt="Socket.IO" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">Socket.IO</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/postgresql.svg" alt="Tailwind CSS" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">PostgreSQL</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/prisma.svg" alt="Prisma" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">Prisma</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/mongodb.svg" alt="MongoDB" className="w-12 h-12 mb-2" />
-              <span className="text-white/90">MongoDB</span>
-            </div>
-            <div className="flex flex-col items-center">
-              <img src="/icons/github.svg" alt="Git" className="w-12 h-12 mb-2 " />
-              <span className="text-white/90">Git & GitHub</span>
-            </div>
+            <StackCard nom="React" link="react" />
+            <StackCard nom="Next.js" link="nextjs" />
+            <StackCard nom="Tailwind CSS" link="tailwindcss" />
+            <StackCard nom="TypeScript" link="typescript" />
+            <StackCard nom="Node.js" link="nodejs" />
+            <StackCard nom="Socket.IO" link="socketio" />
+            <StackCard nom="PostgreSQL" link="postgresql" />
+            <StackCard nom="Prisma" link="prisma" />
+            <StackCard nom="MongoDB" link="mongodb" />
+            <StackCard nom="Git & GitHub" link="github" />
           </div>
         </div>
       </section>
