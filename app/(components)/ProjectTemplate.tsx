@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import ParticlesBackground from '../(components)/ParticlesBackground';
 
+// eslint-disable-next-line
 export default function ProjectTemplate({ project }: { project: any }) {
   const [lightboxImg, setLightboxImg] = useState<string | null>(null);
 
