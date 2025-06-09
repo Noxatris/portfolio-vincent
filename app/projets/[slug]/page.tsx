@@ -8,15 +8,9 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function ProjectPage({
-  params,
-}: {
-  params: { slug: string } | Promise<{ slug: string }>; // Typage accepté
-}) {
-  // Dans le cas params est Promise, on await
-  const resolvedParams = params instanceof Promise ? await params : params;
-  
-  const project = projects.find(p => p.slug === resolvedParams.slug);
+// **Ne pas typer `params` explicitement**
+export default async function ProjectPage({ params }: any) {
+  const project = projects.find(p => p.slug === params.slug);
 
   if (!project) return notFound();
 
