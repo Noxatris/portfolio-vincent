@@ -8,15 +8,10 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function ProjectPageWrapper(props: { params: any }) {
-  // Force resolution au cas où params serait une Promise
-  const params = await Promise.resolve(props.params);
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params; // await la Promise ici
 
-  return <ProjectPage params={params} />;
-}
-
-function ProjectPage({ params }: { params: { slug: string } }) {
-  const project = projects.find(p => p.slug === params.slug);
+  const project = projects.find(p => p.slug === resolvedParams.slug);
 
   if (!project) return notFound();
 
