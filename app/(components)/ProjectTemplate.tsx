@@ -8,7 +8,7 @@ export default function ProjectTemplate({ project }: { project: any }) {
 
   return (
     <main
-      className="relative font-sans text-white min-h-screen bg-black overflow-x-hidden bg-cover shadow-inset"
+      className="relative font-sans text-white min-h-screen bg-black overflow-x-hidden bg-cover bg-center xl:bg-top shadow-inset"
       style={{ backgroundImage: `url(/bgProjet/${project.cover})` }}
     >
       <ParticlesBackground />

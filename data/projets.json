@@ -4,7 +4,10 @@
     "title": "Eternalys",
     "description": "Un visual novel immersif entre vengeance, technologie et humanité.",
     "cover": "eternalys.png",
-    "stack": ["Next.js", "Tailwind"],
+    "stack": [
+      "Next.js",
+      "Tailwind"
+    ],
     "features": [
       "Affichage dynamique des scènes",
       "Animations interactives",
@@ -12,7 +15,10 @@
       "Totalement serverless",
       "Gestion Markdown"
     ],
-    "images": ["/screens/eternalys1.png", "/screens/eternalys2.png"],
+    "images": [
+      "/screens/eternalys1.png",
+      "/screens/eternalys2.png"
+    ],
     "url": "https://dimension-novel.vercel.app/"
   },
   {
@@ -20,9 +26,102 @@
     "title": "Interface de Jeu de rôle",
     "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
     "cover": "interfaceJDR.png",
-    "stack": ["React", "Vite.js", "TypeScript", "Tailwind", "Node.js", "express.js", "Socket.IO", "SQLite"],
-    "features": ["Lancé de Dé Genesys", "Base de donnée en SQLite", "Gestion d'instance multi-utilisateur"],
-    "images": ["/screens/interfaceJDR1.png", "/screens/interfaceJDR2.png"],
+    "stack": [
+      "React",
+      "Vite.js",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "express.js",
+      "Socket.IO",
+      "SQLite"
+    ],
+    "features": [
+      "Lancé de Dé Genesys",
+      "Base de donnée en SQLite",
+      "Gestion d'instance multi-utilisateur"
+    ],
+    "images": [
+      "/screens/interfaceJDR1.png",
+      "/screens/interfaceJDR2.png"
+    ],
+    "url": "https://github.com/Noxatris/deepintheabyss"
+  },
+  {
+    "slug": "gwadaResto",
+    "title": "Gestion de commande Full-Stack",
+    "description": "Un stack complet comprenant un site internet client, une PWA pour les professionnels, une API relié à une BDD pour lié le tout",
+    "cover": "gwadaResto.png",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "express.js",
+      "PostgreSQL"
+    ],
+    "features": [
+      "Commande de plat",
+      "Gestion du menu",
+      "Répertoration de Restaurant",
+      "Statistique des restaurant",
+      "Recherche avancés filtré par tag, distance, status",
+      "Offre via abonnement"
+    ],
+    "images": [
+      "/screens/gwadaResto1.png",
+      "/screens/gwadaResto2.png"
+    ],
+    "url": "https://github.com/Noxatris/deepintheabyss"
+  },
+  {
+    "slug": "dimensionAnime",
+    "title": "Bibliothèque Anime",
+    "description": "Site internet référençant des Animés Japonais lié à une BDD en serverless (En Pause)",
+    "cover": "dimensionAnime.png",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "PostgreSQL",
+      "Prisma"
+    ],
+    "features": [
+      "Recherche d'anime",
+      "Base de donnée en PostgreSQL et Prisma en ORM",
+      "Description avancée",
+      "Light / Dark mode"
+    ],
+    "images": [
+      "/screens/dimensionAnime1.png",
+      "/screens/dimensionAnime2.png"
+    ],
+    "url": "https://next-dimension-anime.vercel.app/"
+  },
+  {
+    "slug": "interfaceJdr",
+    "title": "Interface de Jeu de rôle",
+    "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
+    "cover": "interfaceJDR.png",
+    "stack": [
+      "React",
+      "Vite.js",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "express.js",
+      "Socket.IO",
+      "SQLite"
+    ],
+    "features": [
+      "Lancé de Dé Genesys",
+      "Base de donnée en SQLite",
+      "Gestion d'instance multi-utilisateur"
+    ],
+    "images": [
+      "/screens/interfaceJDR1.png",
+      "/screens/interfaceJDR2.png"
+    ],
     "url": "https://github.com/Noxatris/deepintheabyss"
   }
 ]

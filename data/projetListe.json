@@ -12,16 +12,16 @@
         "link": "/projets/interfaceJdr"
     },
     {
-        "titre": "Full Stack - Commande Restaurant",
+        "titre": "Full Stack - Commande Restaurant (en cours)",
         "description": "Un site client répertoriant les restaurants, une PWA pour les profesionnels et une API qui lie le tout à une BDD en PostgreSQL - Prisma",
         "technologie": "Next.js - TailwindCss - TypeScript - PostgreSQL - Prisma - Node.js - Express.js",
-        "link": "/"
+        "link": "/projets/gwadaResto"
     },
     {
         "titre": "Bibliothèque Anime",
         "description": "Site internet référençant des Animés Japonais lié à une BDD en serverless (En Pause)",
         "technologie": "Next.js - TailwindCss - TypeScript - PostgreSQL - Prisma",
-        "link": "/"
+        "link": "/projets/dimensionAnime"
     },
     {
         "titre": "Réseau social d'entreprise",
