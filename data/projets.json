@@ -99,29 +99,26 @@
     "url": "https://next-dimension-anime.vercel.app/"
   },
   {
-    "slug": "interfaceJdr",
-    "title": "Interface de Jeu de rôle",
-    "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
-    "cover": "interfaceJDR.png",
+    "slug": "groupomania",
+    "title": "Réseau Social d'entreprise",
+    "description": "Réseau social d'entrerprise réaliser en tant que projet final de ma formation",
+    "cover": "groupomania.png",
     "stack": [
-      "React",
-      "Vite.js",
-      "TypeScript",
-      "Tailwind",
+      "Vue.js",
+      "Sass",
       "Node.js",
       "express.js",
-      "Socket.IO",
-      "SQLite"
+      "MySql"
     ],
     "features": [
-      "Lancé de Dé Genesys",
-      "Base de donnée en SQLite",
-      "Gestion d'instance multi-utilisateur"
+      "Gestion administrateur",
+      "Publication message avec image",
+      "Systeme de like / dislike et commentaire"
     ],
     "images": [
-      "/screens/interfaceJDR1.png",
-      "/screens/interfaceJDR2.png"
+      "/screens/groupomania1.png",
+      "/screens/groupomania2.png"
     ],
-    "url": "https://github.com/Noxatris/deepintheabyss"
+    "url": "https://github.com/Noxatris/VincentBourjat_7_23092021"
   }
 ]

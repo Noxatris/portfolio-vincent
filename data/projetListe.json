@@ -27,6 +27,6 @@
         "titre": "Réseau social d'entreprise",
         "description": "Projet scolaire finale ayant pour objectif de réaliser un réseau social d'entreprise avec gestion des images, commentaire, like, etc...",
         "technologie": "Vue.js - Sass - MySQL - Node.js - Express.js",
-        "link": "/"
+        "link": "/projets/groupomania"
     }
 ]
