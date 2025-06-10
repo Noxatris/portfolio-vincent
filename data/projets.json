@@ -3,7 +3,7 @@
     "slug": "eternalys",
     "title": "Eternalys",
     "description": "Un visual novel immersif entre vengeance, technologie et humanité.",
-    "cover": "/bgProjet/eternalys.png",
+    "cover": "eternalys.png",
     "stack": ["Next.js", "Tailwind"],
     "features": [
       "Affichage dynamique des scènes",
@@ -19,7 +19,7 @@
     "slug": "interfaceJdr",
     "title": "Interface de Jeu de rôle",
     "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
-    "cover": "/bgProjet/interfaceJDR.png",
+    "cover": "interfaceJDR.png",
     "stack": ["React", "Vite.js", "TypeScript", "Tailwind", "Node.js", "express.js", "Socket.IO", "SQLite"],
     "features": ["Lancé de Dé Genesys", "Base de donnée en SQLite", "Gestion d'instance multi-utilisateur"],
     "images": ["/screens/interfaceJDR1.png", "/screens/interfaceJDR2.png"],
