@@ -101,7 +101,7 @@
   {
     "slug": "groupomania",
     "title": "Réseau Social d'entreprise",
-    "description": "Réseau social d'entrerprise réaliser en tant que projet final de ma formation",
+    "description": "Réseau social d'entrerprise réaliser en tant que projet final de ma formation, le design est clairement loin de mes standard actuelle mais il démontre mon évolution au fil du temps et reste un bon ajout technique",
     "cover": "groupomania.png",
     "stack": [
       "Vue.js",

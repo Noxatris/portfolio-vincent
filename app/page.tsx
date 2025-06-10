@@ -118,7 +118,7 @@ export default function HomePage() {
             </button>
           </form>
           <div className="mt-12 flex justify-center gap-8">
-            <a href="https://github.com/tonPseudo" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-white hover:text-blue-400 transition-colors">
+            <a href="https://github.com/Noxatris" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-white hover:text-blue-400 transition-colors">
               <img src="/icons/github.svg" alt="GitHub" className="w-10 h-10 mb-2" />
               <span>GitHub</span>
             </a>
