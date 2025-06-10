@@ -19,7 +19,7 @@
     "slug": "interfaceJdr",
     "title": "Interface de Jeu de rôle",
     "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
-    "video": "/bgProjet/interfaceJDR.png",
+    "cover": "/bgProjet/interfaceJDR.png",
     "stack": ["React", "Vite.js", "TypeScript", "Tailwind", "Node.js", "express.js", "Socket.IO", "SQLite"],
     "features": ["Lancé de Dé Genesys", "Base de donnée en SQLite", "Gestion d'instance multi-utilisateur"],
     "images": ["/screens/interfaceJDR1.png", "/screens/interfaceJDR2.png"],
