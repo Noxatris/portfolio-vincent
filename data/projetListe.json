@@ -8,8 +8,8 @@
     {
         "titre": "Interface de JDR Genesys",
         "description": "Une interface socket.io pour maîtriser les jets, actions et PNJ d'une table Genesys en ligne. Ergonomique et réactive.",
-        "technologie": "React.js - Vite.js - TailwindCss - TypeScript - Socket.IO - Node.js - Express.js",
-        "link": "/"
+        "technologie": "React.js - Vite.js - TailwindCss - TypeScript - Socket.IO - Node.js - Express.js - SQLite",
+        "link": "/projets/interfaceJdr"
     },
     {
         "titre": "Full Stack - Commande Restaurant",

@@ -16,13 +16,13 @@
     "url": "https://dimension-novel.vercel.app/"
   },
   {
-    "slug": "aethermap",
-    "title": "AetherMap",
-    "description": "Une carte interactive de l’univers des projets fantasy.",
-    "video": "/videos/aethermap.mp4",
-    "stack": ["React", "Three.js", "Node.js"],
-    "features": ["Zoom dynamique", "Points d’intérêt animés", "Export JSON"],
-    "images": ["/screens/am1.webp", "/screens/am2.webp"],
-    "url": "https://aethermap.io"
+    "slug": "interfaceJdr",
+    "title": "Interface de Jeu de rôle",
+    "description": "Un programme permettant le lancer de dé ainsi que la modification d'une fiche personnage sur une instance groupé",
+    "video": "/bgProjet/interfaceJDR.png",
+    "stack": ["React", "Vite.js", "TypeScript", "Tailwind", "Node.js", "express.js", "Socket.IO", "SQLite"],
+    "features": ["Lancé de Dé Genesys", "Base de donnée en SQLite", "Gestion d'instance multi-utilisateur"],
+    "images": ["/screens/interfaceJDR1.png", "/screens/interfaceJDR2.png"],
+    "url": "https://github.com/Noxatris/deepintheabyss"
   }
 ]
