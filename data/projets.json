@@ -17,9 +17,10 @@
     ],
     "images": [
       "/screens/eternalys1.png",
-      "/screens/eternalys2.png"
+      "/screens/eternalys2.png",
+      "/screens/eternalys3.png"
     ],
-    "url": "https://dimension-novel.vercel.app/"
+    "url": "https://dimension-novel.fr"
   },
   {
     "slug": "interfaceJdr",
