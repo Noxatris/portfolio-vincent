@@ -130,13 +130,13 @@ export default function HomePage() {
           </p>
           <div className="space-y-6 text-white">
             <p className="text-white/80">
-              You can reach me directly by email while the contact form is under construction:
+              Vous pouvez me contacter directement par mail, un formulaire de contact est en cours de développement.
             </p>
             <a
               href="mailto:noxatrisdev@gmail.com"
               className="inline-block bg-blue-700 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-colors shadow-lg shadow-blue-800/20"
             >
-              Contact me via email
+              Me contacter par email
             </a>
           </div>
 
