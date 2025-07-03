@@ -145,10 +145,6 @@ export default function HomePage() {
               <img src="/icons/github.svg" alt="GitHub" className="w-10 h-10 mb-2" />
               <span>GitHub</span>
             </a>
-            <a href="https://linkedin.com/in/tonProfil" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-white hover:text-blue-400 transition-colors">
-              <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-10 h-10 mb-2" />
-              <span>LinkedIn</span>
-            </a>
           </div>
         </div>
       </section>
