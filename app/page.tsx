@@ -126,7 +126,7 @@ export default function HomePage() {
         <div className="max-w-3xl w-full z-10 text-center">
           <h2 className="text-4xl font-bold mb-6">Restons en contact</h2>
           <p className="mb-10 text-white/70">
-            Une idée, un besoin ou une envie d'explorer ensemble un projet numérique sur mesure ? Écrivez-moi.
+            Une idée, un besoin ou une envie d&pos;explorer ensemble un projet numérique sur mesure ? Écrivez-moi.
           </p>
           <div className="space-y-6 text-white">
             <p className="text-white/80">
