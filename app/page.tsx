@@ -8,6 +8,8 @@ import ProjectCard from './(components)/ProjectCard'
 
 import StackCard from './(components)/StackCard'
 
+import ContactForm from './(components)/ContactForm';
+
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0);
 
@@ -126,19 +128,9 @@ export default function HomePage() {
         <div className="max-w-3xl w-full z-10 text-center">
           <h2 className="text-4xl font-bold mb-6">Restons en contact</h2>
           <p className="mb-10 text-white/70">
-            Une idée, un besoin ou une envie d&pos;explorer ensemble un projet numérique sur mesure ? Écrivez-moi.
+            Une idée, un besoin ou une envie d&apos;explorer ensemble un projet numérique sur mesure ? Écrivez-moi.
           </p>
-          <div className="space-y-6 text-white">
-            <p className="text-white/80">
-              Vous pouvez me contacter directement par mail, un formulaire de contact est en cours de développement.
-            </p>
-            <a
-              href="mailto:noxatrisdev@gmail.com"
-              className="inline-block bg-blue-700 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-xl transition-colors shadow-lg shadow-blue-800/20"
-            >
-              Me contacter par email
-            </a>
-          </div>
+          <ContactForm />
 
           <div className="mt-12 flex justify-center gap-8">
             <a href="https://github.com/Noxatris" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-white hover:text-blue-400 transition-colors">
