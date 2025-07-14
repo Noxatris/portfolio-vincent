@@ -9,6 +9,7 @@ import ProjectCard from './(components)/ProjectCard'
 import StackCard from './(components)/StackCard'
 
 import ContactForm from './(components)/ContactForm';
+import NoxatrisLogo from './(components)/noxatrislogo';
 
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0);
@@ -51,7 +52,8 @@ export default function HomePage() {
 
       {/* Landing Section */}
       <section className="h-screen flex flex-col justify-center items-center relative z-10 px-4 text-center">
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">Noxatris</h1>
+        <NoxatrisLogo />
+        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4">Noxatris.dev</h1>
         <p className="text-xl md:text-2xl text-white/80 max-w-2xl">
           Développeur full-stack autodidacte, je conçois des expériences web allant de sites immersifs narratifs à des plateformes complexes avec API et base de données.
         </p>
