@@ -10,7 +10,7 @@ export default function AnimatedNoxatrisLogo() {
 
     return (
         <div
-            className="relative w-fit h-[500px] cursor-pointer hover:mr-110 transition-all duration-500 ease-in-out"
+            className="relative w-fit h-[500px] cursor-pointer hover:mr-110 transition-all duration-500 ease-in-out self-start"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
