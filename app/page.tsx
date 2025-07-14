@@ -50,7 +50,10 @@ export default function HomePage() {
       <div className="fixed top-0 left-0 w-full h-screen bg-cover bg-center pointer-events-none transition-opacity duration-500" style={{ backgroundImage: "url('/mer-abyss.webp')", opacity: opacityC }} />
 
       {/* Landing Section */}
-      <section className="h-screen flex flex-col justify-center items-center relative z-10 px-4 text-center pt-[200px]">
+      <section className="h-screen flex flex-col justify-start items-center relative z-10 px-4 text-center pt-5">
+        <div className='self-start w-[25%] xl:w-[8%]'>
+          <img src="/logo.png" alt="Logo Noxatris.dev" className='' />
+        </div>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 pt-[200px]">Noxatris.dev</h1>
         <p className="text-xl md:text-2xl text-white/80 max-w-2xl">
           Développeur full-stack autodidacte, je conçois des expériences web allant de sites immersifs narratifs à des plateformes complexes avec API et base de données.
