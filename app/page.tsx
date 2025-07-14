@@ -51,7 +51,7 @@ export default function HomePage() {
 
       {/* Landing Section */}
       <section className="h-screen flex flex-col justify-start items-center relative z-10 px-4 text-center pt-5">
-        <div className='self-start w-[25%] xl:w-[8%]'>
+        <div className='xl:self-start w-[75%] xl:w-[8%]'>
           <img src="/logo.png" alt="Logo Noxatris.dev" className='' />
         </div>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4 pt-[200px]">Noxatris.dev</h1>
