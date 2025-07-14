@@ -9,7 +9,6 @@ import ProjectCard from './(components)/ProjectCard'
 import StackCard from './(components)/StackCard'
 
 import ContactForm from './(components)/ContactForm';
-import NoxatrisLogo from './(components)/noxatrislogo';
 
 export default function HomePage() {
   const [scrollY, setScrollY] = useState(0);
