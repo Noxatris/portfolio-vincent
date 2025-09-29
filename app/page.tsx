@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-// @ts-expect-error
+// @ts-expect-error AOS n'a pas de types officiels
 import AOS from 'aos'
 import ParticlesBackground from './(components)/ParticlesBackground'
 
