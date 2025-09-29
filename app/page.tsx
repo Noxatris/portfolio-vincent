@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-// @ts-ignore
+// @ts-expect-error
 import AOS from 'aos'
 import ParticlesBackground from './(components)/ParticlesBackground'
 
