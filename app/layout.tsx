@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { imprintMT } from "./fonts"; 
+import 'aos/dist/aos.css'
 import "./globals.css";
 
 
