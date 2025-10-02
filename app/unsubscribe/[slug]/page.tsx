@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, use } from 'react'
+import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 
@@ -37,9 +37,9 @@ export default function UnsubscribePage() {
             <div className="max-w-md w-full text-center">
                 {validate ? (
                     <>  <h1 className="text-3xl font-bold mb-4">Désinscription réussie</h1>
-                        <p className="mb-4">L'adresse mail : {email} ne recevra plus nos démarches.</p>
+                        <p className="mb-4">L&apos;adresse mail : {email} ne recevra plus nos démarches.</p>
                         <Link href="/" className="mt-4 px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded">
-                            Retour à l'accueil</Link>
+                            Retour à l&apos;accueil</Link>
                     </>
                 ) : (
                     <>
