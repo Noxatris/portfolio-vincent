@@ -13,6 +13,8 @@
     "aos": "^2.3.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.6",
+    "googleapis": "^160.0.0",
+    "jsonwebtoken": "^9.0.2",
     "next": "^15.5.4",
     "next-i18next": "^15.4.2",
     "next-sitemap": "^4.2.3",
